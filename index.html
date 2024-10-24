@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport"           content="width=640">
+		<meta name="description"        content="Hi. I am Ernő Rubik’s magic cube.">
+		<meta name="keywords"           content="Erno Rubik’s Cube Rubix Stewart Smith Stewdio Google Creative Lab">		
+		<link rel="stylesheet" type="text/css"  href="styles/cube.css">
+		<link rel="stylesheet" type="text/css"  href="styles/explorer.css">
+		<link rel="icon"       type="image/png" href="media/cubeExplorer-favicon-0064x0064.png">
+		<link rel="apple-touch-icon"            href="media/cubeExplorer-favicon-0144x0144.png">
+		<script charset="utf-8" src="scripts/bowser.min.js"></script>
+		<script charset="utf-8" src="scripts/cuber.min.js"></script>
+		<script charset="utf-8" src="scripts/patches.js"></script>
+		<script charset="utf-8" src="scripts/buttons.js"></script>
+		<script charset="utf-8" src="scripts/demos.js"></script>
+		<script charset="utf-8" src="scripts/explorer.js"></script>
+		<title>Rubik’s Cube Explorer</title>
+	</head>
+	<body>
+		<div id="container"></div>
+
+
+
+
+		<div id="navRequester"></div>
+		<nav>
+			<div class="navGroup" id="styles">
+				<h3>Styles</h3>
+				<ul>
+					<li id="styleGrid">Grid</li>
+					<li id="styleGlass">Glass</li>
+				</ul>
+			</div>
+			<div class="navGroup" id="highlights">
+				<h3>Cubelets</h3>
+				<ul>
+					<li id="highlightCenters">Centers</li>
+					<li id="highlightEdges">Edges</li>
+					<li id="highlightCorners">Corners</li>
+					<li id="highlightWhites">Whites</li>
+				</ul>
+			</div>
+			<div class="navGroup" id="labels">
+				<h3>Labels</h3>
+				<ul>
+					<li id="labelNumbers">Numbers</li>
+					<li id="labelFaces">Faces</li>
+				</ul>
+			</div>
+			<div class="navGroup" id="actions">
+				<h3>Actions</h3>
+				<ul>
+					<li id="actionRotate">Rotate</li>
+					<li id="actionRealign">Realign</li>
+					<li id="actionShuffle">Shuffle</li>
+					<li id="actionUndo">Undo</li>
+					<li id="actionDemo">Demo</li>
+				</ul>
+			</div>
+			<div class="closer">Close</div>
+		</nav>
+		
+
+
+
+		<div id="alerts"><p></p></div>
+	</body>
+</html>
